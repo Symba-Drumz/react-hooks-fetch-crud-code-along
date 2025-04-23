@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import ItemForm from "./ItemFormUpdated";
+import ItemForm from "./ItemForm";
 import Filter from "./Filter";
-import Item from "./ItemUpdated";
+import Item from "./Item";
 
 function ShoppingList() {
   const [selectedCategory, setSelectedCategory] = useState("All");
